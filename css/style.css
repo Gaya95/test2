@@ -1,0 +1,794 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+  font-family: Mulish;
+  src: url(Mulish-VariableFont_wght.ttf);
+}
+
+/* line 7, ../hirecup-scss/scss/_main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, ../hirecup-scss/scss/_main.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 13, ../hirecup-scss/scss/_main.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 17, ../hirecup-scss/scss/_main.scss */
+button {
+  border: none;
+}
+
+/* line 20, ../hirecup-scss/scss/_main.scss */
+header {
+  background-color: #E5E5E5;
+  background-image: url(../image/bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  min-height: 1100px;
+}
+
+/* line 27, ../hirecup-scss/scss/_main.scss */
+header form input {
+  width: 450px;
+  max-width: 100%;
+  height: 70px;
+  background: #FFFFFF;
+  box-shadow: 0px 22px 147px rgba(0, 0, 0, 0.1), 0px 9.19107px 61.4131px rgba(0, 0, 0, 0.0215656), 0px 4.91399px 32.8344px rgba(0, 0, 0, 0.0178832), 0px 2.75474px 18.4067px rgba(0, 0, 0, 0.015), 0px 1.46302px 9.77565px rgba(0, 0, 0, 0.0121168), 0px 0.6088px 4.06787px rgba(0, 0, 0, 0.00843437);
+  border-radius: 100px;
+  border: none;
+}
+
+/* line 38, ../hirecup-scss/scss/_main.scss */
+.main-label {
+  font: 600 italic 18px 'Mulish', sans-serif;
+  color: #f3c623;
+}
+
+/* line 42, ../hirecup-scss/scss/_main.scss */
+.header-label {
+  max-width: 100%;
+}
+
+/* line 45, ../hirecup-scss/scss/_main.scss */
+.header-label:before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 70px;
+  background: #127681;
+  border-radius: 0px 100px 100px 100px;
+  right: 0;
+}
+
+/* line 54, ../hirecup-scss/scss/_main.scss */
+.header-label:after {
+  content: "";
+  position: absolute;
+  background-image: url(../image/header-search.svg);
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  bottom: 22px;
+  right: 30px;
+}
+
+/* line 68, ../hirecup-scss/scss/_main.scss */
+nav {
+  margin-bottom: 200px;
+}
+
+/* line 70, ../hirecup-scss/scss/_main.scss */
+nav ul {
+  font: 600 17px 'Lato', sans-serif;
+}
+
+/* line 72, ../hirecup-scss/scss/_main.scss */
+nav ul li {
+  margin-left: 50px;
+}
+
+/* line 74, ../hirecup-scss/scss/_main.scss */
+nav ul li a {
+  color: #000 !important;
+}
+
+/* line 77, ../hirecup-scss/scss/_main.scss */
+nav ul li .sign-up {
+  color: #fff !important;
+  padding: 10px 13px;
+  background-color: #127681;
+  border-radius: 10px;
+}
+
+/* line 82, ../hirecup-scss/scss/_main.scss */
+nav ul li .sign-up:hover {
+  color: #127681 !important;
+  background-color: #fff;
+}
+
+/* line 92, ../hirecup-scss/scss/_main.scss */
+.header-text {
+  max-width: 450px;
+}
+
+/* line 94, ../hirecup-scss/scss/_main.scss */
+.header-text p {
+  color: rgba(0, 0, 0, 0.6);
+  font: 400 18px 'Lato', sans-serif;
+}
+
+/* line 100, ../hirecup-scss/scss/_main.scss */
+header h4::before {
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 0;
+  border: 3px solid #127681;
+  top: 31px;
+  left: -50px;
+}
+
+/* line 109, ../hirecup-scss/scss/_main.scss */
+h1 {
+  font: 900 80px 'Mulish', sans-serif;
+}
+
+/* line 112, ../hirecup-scss/scss/_main.scss */
+.header-left {
+  max-width: 800px;
+}
+
+/* line 114, ../hirecup-scss/scss/_main.scss */
+.header-left span {
+  padding: 5px 20px;
+  background: rgba(243, 198, 35, 0.51);
+}
+
+/* line 129, ../hirecup-scss/scss/_main.scss */
+article {
+  padding: 50px 0 50px 0;
+}
+
+/* line 133, ../hirecup-scss/scss/_main.scss */
+h2 {
+  font: 900 40px 'Mulish', sans-serif;
+  color: #10375C;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* line 139, ../hirecup-scss/scss/_main.scss */
+.together {
+  margin-bottom: 90px;
+}
+
+/* line 144, ../hirecup-scss/scss/_main.scss */
+.colored {
+  color: #127681;
+}
+
+/* line 147, ../hirecup-scss/scss/_main.scss */
+.circule, .circule-yellow {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+}
+
+/* line 154, ../hirecup-scss/scss/_main.scss */
+.circule {
+  background-color: #127681;
+}
+
+/* line 157, ../hirecup-scss/scss/_main.scss */
+.circule-yellow {
+  background-color: #F3C623;
+}
+
+/* line 160, ../hirecup-scss/scss/_main.scss */
+.circules {
+  max-width: 277px;
+}
+
+/* line 163, ../hirecup-scss/scss/_main.scss */
+.upload, .call, .user {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* line 167, ../hirecup-scss/scss/_main.scss */
+.upload {
+  background-image: url(../image/upload.png);
+}
+
+/* line 171, ../hirecup-scss/scss/_main.scss */
+.call {
+  background-image: url(../image/phone-call.png);
+}
+
+/* line 174, ../hirecup-scss/scss/_main.scss */
+.user {
+  background-image: url(../image/user-check.png);
+}
+
+/* line 177, ../hirecup-scss/scss/_main.scss */
+h3 {
+  font: 700 24px 'Mulish', sans-serif;
+  text-align: center;
+}
+
+/* line 181, ../hirecup-scss/scss/_main.scss */
+.yellow-back,
+.travel {
+  flex-basis: 50%;
+}
+
+/* line 185, ../hirecup-scss/scss/_main.scss */
+.best,
+.hire-now {
+  max-width: 450px;
+  padding-top: 100px;
+}
+
+/* line 190, ../hirecup-scss/scss/_main.scss */
+.best h4 {
+  color: #F3C623;
+  font: 600 18px 'Mulish', sans-serif;
+}
+
+/* line 194, ../hirecup-scss/scss/_main.scss */
+.get-employee {
+  padding-left: 70px;
+}
+
+/* line 197, ../hirecup-scss/scss/_main.scss */
+.best h4:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 55px;
+  max-width: 100%;
+  height: 0;
+  border: 3px solid #EBC022;
+}
+
+/* line 207, ../hirecup-scss/scss/_main.scss */
+.upload-file,
+.hire-button {
+  width: 210px;
+  height: 50px;
+  background-color: #127681;
+  border-radius: 100px;
+  color: #fff;
+  font: 700 18px 'Mulish', sans-serif;
+  text-align: right;
+  padding-right: 40px;
+  position: relative;
+}
+
+/* line 220, ../hirecup-scss/scss/_main.scss */
+.upload-file:before {
+  content: "";
+  position: absolute;
+  background-image: url(../image/upload-arrow.png);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  left: 38px;
+  bottom: 18px;
+}
+
+/* line 230, ../hirecup-scss/scss/_main.scss */
+.best a,
+.hire-now a {
+  text-decoration: default;
+  margin-left: 25px;
+  font: 700 15px 'Mulish', sans-serif;
+  color: #127681;
+}
+
+/* line 237, ../hirecup-scss/scss/_main.scss */
+.hire-now h4,
+header h4 {
+  color: #127681;
+  font: 600 18px 'Mulish', sans-serif;
+}
+
+/* line 242, ../hirecup-scss/scss/_main.scss */
+.hire-now h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 55px;
+  height: 0;
+  border: 3px solid #127681;
+}
+
+/* line 251, ../hirecup-scss/scss/_main.scss */
+.yellow-colored {
+  color: #F3C623;
+}
+
+/* line 254, ../hirecup-scss/scss/_main.scss */
+.hire-now {
+  text-align: left;
+}
+
+/* line 257, ../hirecup-scss/scss/_main.scss */
+.company-text {
+  font: 400 18px 'Lato', sans-serif;
+}
+
+/* line 260, ../hirecup-scss/scss/_main.scss */
+.hire-button {
+  background-color: #F3C623;
+  color: #10375C;
+}
+
+/* line 264, ../hirecup-scss/scss/_main.scss */
+.colored-bg {
+  background-color: #E5E5E5;
+}
+
+/* line 268, ../hirecup-scss/scss/_main.scss */
+.latest-item {
+  text-decoration: none;
+  color: #000;
+  width: 102.86px;
+  height: 50px;
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 100px;
+}
+
+/* line 278, ../hirecup-scss/scss/_main.scss */
+#dropdownMenuButton1,
+#dropdownMenuButton3 {
+  width: 102.86px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100px;
+  font: 700 18px 'Lato', sans-serif;
+  color: #111D5E;
+}
+
+/* line 287, ../hirecup-scss/scss/_main.scss */
+#dropdownMenuButton2 {
+  width: 182.62px;
+  height: 50px;
+  background-color: #F3C623;
+  color: #111D5E;
+  font: 700 18px 'Lato', sans-serif;
+  border-radius: 100px;
+}
+
+/* line 295, ../hirecup-scss/scss/_main.scss */
+#dropdownMenuButton3 {
+  width: 217px;
+}
+
+/* line 298, ../hirecup-scss/scss/_main.scss */
+.search {
+  outline: none;
+  width: 297.24px;
+  height: 50px;
+  border-radius: 100px;
+  padding: 15px 35px;
+  max-width: 100%;
+}
+
+/* line 306, ../hirecup-scss/scss/_main.scss */
+.search-form {
+  position: relative;
+}
+
+/* line 309, ../hirecup-scss/scss/_main.scss */
+.search-color {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  background: #127681;
+  border-radius: 0px 100px 100px 100px;
+  top: 0;
+  left: 238px;
+}
+
+/* line 318, ../hirecup-scss/scss/_main.scss */
+.search-color:after {
+  content: "";
+  background-image: url(../image/search.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 18px;
+  top: 15px;
+  cursor: pointer;
+}
+
+/* line 329, ../hirecup-scss/scss/_main.scss */
+.graphic {
+  width: 239.1px;
+  height: 361.53px;
+  border-radius: 5px;
+  background-color: white;
+  max-width: 100%;
+  padding-top: 13px;
+}
+
+/* line 336, ../hirecup-scss/scss/_main.scss */
+.graphic-block {
+  border-bottom: 2px solid #E7E7E7;
+}
+
+/* line 339, ../hirecup-scss/scss/_main.scss */
+.graphic-title {
+  max-width: 178px;
+  position: relative;
+}
+
+/* line 342, ../hirecup-scss/scss/_main.scss */
+.graphic-title::before {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: #FFBD69;
+  border-radius: 50%;
+  top: 4px;
+  right: -46px;
+}
+
+/* line 352, ../hirecup-scss/scss/_main.scss */
+.graphic-title::after {
+  content: "";
+  position: absolute;
+  background-image: url(../image/heart.svg);
+  background-repeat: no-repeat;
+  width: 17.69px;
+  height: 15.63px;
+  z-index: 1;
+  top: 13px;
+  right: -37px;
+}
+
+/* line 364, ../hirecup-scss/scss/_main.scss */
+.graphic-title h5 {
+  color: #111D5E;
+  margin-left: 22px;
+  font: 800 18px 'Mulish', sans-serif;
+}
+
+/* line 370, ../hirecup-scss/scss/_main.scss */
+.graphic-inner-block {
+  width: 195.55px;
+  height: 35px;
+  background: #F5F5F5;
+  border-radius: 10px;
+  font: 700 15px 'Mulish', sans-serif;
+  color: #10375C;
+  padding-top: 6px;
+  margin-bottom: 10px;
+  margin: 20px auto;
+}
+
+/* line 381, ../hirecup-scss/scss/_main.scss */
+.graphic-border-block {
+  border-bottom: 2px solid #E7E7E7;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+/* line 386, ../hirecup-scss/scss/_main.scss */
+.graphic-border-block:after {
+  content: "";
+  position: absolute;
+  background-image: url(../image/comedy-hd.svg);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 200px;
+  top: 60px;
+  left: 36px;
+}
+
+/* line 397, ../hirecup-scss/scss/_main.scss */
+.graphic span {
+  font: 400 italic 15px 'Mulish', sans-serif;
+  color: #787878;
+  border-bottom: 1px solid #787878;
+}
+
+/* line 403, ../hirecup-scss/scss/_main.scss */
+.oman:before,
+.time::before,
+.june:before {
+  content: "";
+  position: absolute;
+  background-image: url(../image/map.svg);
+  width: 14px;
+  height: 18px;
+  background-repeat: no-repeat;
+  left: 15px;
+  bottom: 10px;
+}
+
+/* line 415, ../hirecup-scss/scss/_main.scss */
+.time::before {
+  background-image: url(../image/clock.svg);
+  width: 18px;
+}
+
+/* line 419, ../hirecup-scss/scss/_main.scss */
+.june:before {
+  background-image: url(../image/calendar.svg);
+}
+
+/* line 423, ../hirecup-scss/scss/_main.scss */
+.company {
+  padding: 150px 0;
+}
+
+/* line 425, ../hirecup-scss/scss/_main.scss */
+.company-title {
+  color: #127681;
+  font: 400 18px 'Mulish', sans-serif;
+}
+
+/* line 429, ../hirecup-scss/scss/_main.scss */
+.company-span {
+  color: #10375C;
+  font: 700 15px 'Mulish', sans-serif;
+  border-bottom: 1px solid #10375C;
+}
+
+/* line 434, ../hirecup-scss/scss/_main.scss */
+.company button {
+  width: 60.46px;
+  height: 60.46px;
+  background-color: #F4F6FF;
+}
+
+/* line 439, ../hirecup-scss/scss/_main.scss */
+.company .yellow {
+  background-color: #F3C623;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+/* line 443, ../hirecup-scss/scss/_main.scss */
+.company .yellow:hover {
+  background-color: #fff;
+  border: 1px solid #10375C;
+}
+
+/* line 448, ../hirecup-scss/scss/_main.scss */
+.company .yellow:after {
+  content: "";
+  background-image: url(../image/arrow-right.svg);
+  width: 24px;
+  height: 17px;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+
+/* line 458, ../hirecup-scss/scss/_main.scss */
+.arrow-left {
+  position: relative;
+}
+
+/* line 460, ../hirecup-scss/scss/_main.scss */
+.arrow-left:hover {
+  background-color: #F3C623;
+}
+
+/* line 465, ../hirecup-scss/scss/_main.scss */
+.arrow-left::after {
+  content: "";
+  background-image: url(../image/arrow-left.svg);
+  width: 22px;
+  height: 17px;
+  position: absolute;
+  top: 22px;
+  right: 20px;
+}
+
+/* line 474, ../hirecup-scss/scss/_main.scss */
+.travel-title {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+/* line 479, ../hirecup-scss/scss/_main.scss */
+.travel-link {
+  width: 210px;
+  height: 50px;
+  background-color: #127681;
+  border-radius: 100px;
+  color: #fff;
+  font: 700 15px 'Mulish', sans-serif;
+  border: 1px solid transparent;
+}
+
+/* line 487, ../hirecup-scss/scss/_main.scss */
+.travel-link:hover {
+  color: #127681;
+  background-color: #fff;
+  border: 1px solid #127681;
+  text-decoration: none;
+}
+
+/* line 494, ../hirecup-scss/scss/_main.scss */
+.for-padding {
+  padding: 0px 50px;
+}
+
+/* line 497, ../hirecup-scss/scss/_main.scss */
+.travel-blocks {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+}
+
+/* line 501, ../hirecup-scss/scss/_main.scss */
+.travel-blocks:not(:last-child) {
+  border-bottom: 1px solid #E2E2E2;
+}
+
+/* line 504, ../hirecup-scss/scss/_main.scss */
+.travel-text {
+  max-width: 150px;
+  margin-left: 20px;
+}
+
+/* line 508, ../hirecup-scss/scss/_main.scss */
+footer {
+  padding: 70px 0;
+  background-color: #10375C;
+}
+
+/* line 511, ../hirecup-scss/scss/_main.scss */
+footer h6 {
+  color: #fff;
+  line-height: 46px;
+  font: 700 24px 'Mulish', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* line 517, ../hirecup-scss/scss/_main.scss */
+footer a {
+  color: white;
+}
+
+/* line 522, ../hirecup-scss/scss/_main.scss */
+.last-footer {
+  background-color: #05294B;
+  padding: 30px 0;
+}
+
+/* line 525, ../hirecup-scss/scss/_main.scss */
+.last-footer span {
+  color: #fff;
+  font: 400 15px 'Lato', sans-serif;
+}
+
+/* line 530, ../hirecup-scss/scss/_main.scss */
+.last-footer ul li {
+  margin-left: 56px;
+}
+
+/* line 532, ../hirecup-scss/scss/_main.scss */
+.last-footer ul li a {
+  font: 700 17px 'Lato', sans-serif;
+}
+
+/* line 538, ../hirecup-scss/scss/_main.scss */
+.footer-block ul {
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 1199px) {
+  /* line 544, ../hirecup-scss/scss/_main.scss */
+  .graphic {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* line 549, ../hirecup-scss/scss/_main.scss */
+  h2 {
+    font: 900 30px 'Mulish', sans-serif;
+  }
+  /* line 552, ../hirecup-scss/scss/_main.scss */
+  .best button,
+  .hire-now button {
+    margin-bottom: 20px;
+  }
+  /* line 557, ../hirecup-scss/scss/_main.scss */
+  .best a,
+  .hire-now a {
+    display: block;
+    margin-left: 0;
+  }
+  /* line 562, ../hirecup-scss/scss/_main.scss */
+  .job-inner {
+    margin-bottom: 20px;
+  }
+  /* line 565, ../hirecup-scss/scss/_main.scss */
+  .company__block1 {
+    margin-right: 50px;
+  }
+  /* line 568, ../hirecup-scss/scss/_main.scss */
+  .section-2 {
+    padding: 0;
+  }
+  /* line 571, ../hirecup-scss/scss/_main.scss */
+  .footer-block {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 578, ../hirecup-scss/scss/_main.scss */
+  .circules {
+    margin-bottom: 70px;
+  }
+  /* line 581, ../hirecup-scss/scss/_main.scss */
+  .travel-link {
+    margin-bottom: 30px;
+    margin: 0px auto 50px;
+  }
+  /* line 585, ../hirecup-scss/scss/_main.scss */
+  .company__block1 {
+    margin-bottom: 50px;
+  }
+  /* line 588, ../hirecup-scss/scss/_main.scss */
+  .footer-inner {
+    margin-bottom: 50px;
+  }
+  /* line 591, ../hirecup-scss/scss/_main.scss */
+  h1 {
+    font: 700 62px 'Mulish', sans-serif;
+  }
+  /* line 594, ../hirecup-scss/scss/_main.scss */
+  .section-3 {
+    padding: 0;
+  }
+  /* line 597, ../hirecup-scss/scss/_main.scss */
+  .best,
+  .hire-now {
+    padding-top: 0px;
+  }
+  /* line 601, ../hirecup-scss/scss/_main.scss */
+  .company {
+    padding: 50px 0 50px 0;
+  }
+  /* line 604, ../hirecup-scss/scss/_main.scss */
+  .social ul {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  /* line 611, ../hirecup-scss/scss/_main.scss */
+  .graphic {
+    margin: 0 auto 20px;
+  }
+  /* line 614, ../hirecup-scss/scss/_main.scss */
+  h1 {
+    font: 700 48px 'Mulish', sans-serif;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
